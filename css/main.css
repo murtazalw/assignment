@@ -1,0 +1,100 @@
+* {
+	background-color: #2ac1c9;
+	font-family: Arial;
+	color: #FFFFFF;
+	font-size: 65px;
+}
+
+/*-------- Toggle Hamburger icon Start---------*/
+.icon
+{
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 80px;
+	height: 80px;
+	cursor: pointer;
+}
+.hamburger
+{
+	width: 50px;
+	height: 6px;
+	background: #000000;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+	transition: 0.5s;
+}
+.hamburger:before,
+.hamburger:after
+{
+	content: '';
+	position: absolute;
+	width: 50px;
+	height: 6px;
+	background: #000000;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+	transition: 0.5s;
+}
+.hamburger:before
+{
+	top: -16px;
+}
+.hamburger:after
+{
+	top: 16px;
+}
+.icon.active .hamburger
+{
+	background: rgba(0, 0, 0, 0);
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
+}
+.icon.active .hamburger:before
+{
+	top:0px;
+	transform: rotate(45deg);
+}
+.icon.active .hamburger:after
+{
+	top:0px;
+	transform: rotate(135deg);
+}
+/*-------- Toggle Hamburger icon End---------*/
+
+h1,
+p,
+.dimension {
+	text-align: center;
+}
+
+h1
+{
+	padding-top: 60px;
+}
+
+ p {
+	font-size: 20px;
+	padding-bottom: 50px;
+}
+
+.dimension img {
+	width:200px;
+	height: 200px;
+}
+
+#circle{
+	border-radius: 50%;
+}
+
+#triangle-up {
+    /* width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid red; */
+
+		clip-path: polygon(50% 0, 0 100%, 100% 100%);
+}
