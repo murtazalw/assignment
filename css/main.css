@@ -66,7 +66,8 @@
 
 h1,
 p,
-.dimension {
+.dimension
+{
 	text-align: center;
 }
 
@@ -75,26 +76,30 @@ h1
 	padding-top: 60px;
 }
 
- p {
+p
+{
 	font-size: 20px;
 	padding-bottom: 50px;
 }
 
-.dimension img {
+.dimension img
+{
 	width:200px;
 	height: 200px;
 }
 
-#circle{
+#circle
+{
 	border-radius: 50%;
 }
 
-#triangle-up {
-    width: 0;
-    height: 0;
-    border-left: 100px solid transparent;
-    border-right: 100px solid transparent;
-    border-bottom: 200px solid red;
+#triangle-up
+{
+	width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 200px solid red;
 
-		/* clip-path: polygon(50% 0, 0 100%, 100% 100%); */
+	/* clip-path: polygon(50% 0, 0 100%, 100% 100%); */
 }
