@@ -1,4 +1,5 @@
-* {
+*
+{
 	background-color: #2ac1c9;
 	font-family: Arial;
 	color: #FFFFFF;
@@ -79,10 +80,9 @@ h1
 p
 {
 	font-size: 20px;
-	padding-bottom: 50px;
 }
 
-.dimension img
+#circle, #square, #triangle
 {
 	width:200px;
 	height: 200px;
@@ -93,7 +93,7 @@ p
 	border-radius: 50%;
 }
 
-#triangle-up
+#triangle
 {
 	width: 0;
 	height: 0;
