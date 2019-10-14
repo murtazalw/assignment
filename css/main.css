@@ -42,9 +42,8 @@ p
 	border-right: 100px solid transparent;
 	border-bottom: 200px solid red;
 
-	/* clip-path: polygon(50% 0, 0 100%, 100% 100%); */
+	/* clip-path: polygon(50% 0, 0 100%, 100% 100%);*/
 }
-
 
 /*-------- Toggle Hamburger icon Start---------*/
 .icon
