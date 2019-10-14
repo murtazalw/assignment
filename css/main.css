@@ -6,6 +6,46 @@
 	font-size: 66px;
 }
 
+h1,
+p,
+.dimension
+{
+	text-align: center;
+}
+
+h1
+{
+	padding-top: 60px;
+}
+
+p
+{
+	font-size: 20px;
+}
+
+#circle, #square, #triangle
+{
+	width:200px;
+	height: 200px;
+}
+
+#circle
+{
+	border-radius: 50%;
+}
+
+#triangle
+{
+	width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 200px solid red;
+
+	/* clip-path: polygon(50% 0, 0 100%, 100% 100%); */
+}
+
+
 /*-------- Toggle Hamburger icon Start---------*/
 .icon
 {
@@ -64,42 +104,3 @@
 	transform: rotate(135deg);
 }
 /*-------- Toggle Hamburger icon End---------*/
-
-h1,
-p,
-.dimension
-{
-	text-align: center;
-}
-
-h1
-{
-	padding-top: 60px;
-}
-
-p
-{
-	font-size: 20px;
-}
-
-#circle, #square, #triangle
-{
-	width:200px;
-	height: 200px;
-}
-
-#circle
-{
-	border-radius: 50%;
-}
-
-#triangle
-{
-	width: 0;
-	height: 0;
-	border-left: 100px solid transparent;
-	border-right: 100px solid transparent;
-	border-bottom: 200px solid red;
-
-	/* clip-path: polygon(50% 0, 0 100%, 100% 100%); */
-}
