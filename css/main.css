@@ -36,13 +36,13 @@ p
 
 #triangle
 {
-	width: 0;
+	/* width: 0;
 	height: 0;
 	border-left: 100px solid transparent;
 	border-right: 100px solid transparent;
-	border-bottom: 200px solid red;
+	border-bottom: 200px solid red; */
 
-	/* clip-path: polygon(50% 0, 0 100%, 100% 100%); */
+	clip-path: polygon(50% 0, 0 100%, 100% 100%);
 }
 
 
