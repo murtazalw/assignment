@@ -91,6 +91,8 @@ p
 {
 	background: rgba(0, 0, 0, 0);
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
+	/* width: 600px;
+	background-color: #7FDBDB; */
 }
 .icon.active .hamburger:before
 {
@@ -101,5 +103,12 @@ p
 {
 	top:0px;
 	transform: rotate(135deg);
+}
+
+.icon.active
+{
+	background-color: #7FDBDB;
+	width: 600px;
+	height: 180%;
 }
 /*-------- Toggle Hamburger icon End---------*/
